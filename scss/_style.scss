@@ -18,6 +18,10 @@
             margin-left: $size01;
             margin-right: $size01;
             font-family: $font01;
+            &:hover{
+                color: aquamarine;
+                @include transition(all,3s,linear,2s)
+            }
         }
     }
     .right-div{
@@ -31,4 +35,13 @@
             border-radius: $size01;
         }
     }   
+}
+// second section
+.wraper-2{
+    @include d-flex(flex,space-between);
+    margin-top: $size03;
+    .left-div-2{
+        max-width: 560px;
+        height:200px;
+    }
 }

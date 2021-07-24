@@ -2,3 +2,10 @@
 display:$display ;
 justify-content: $justify-content;
 }
+
+@mixin transition($property,$duration,$type,$delay){
+    transition-property: $property;
+    transition-duration: $duration;
+    transition-timing-function:$type ;
+    transition-delay: $delay;
+}

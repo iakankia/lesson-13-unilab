@@ -68,6 +68,18 @@ table {
   font-family: "Indie Flower", cursive;
 }
 
+.wraper .left-div .text:hover {
+  color: aquamarine;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
 .wraper .right-div {
   max-width: 860px;
   height: 200px;
@@ -79,5 +91,20 @@ table {
   max-width: 860px;
   height: 200px;
   border-radius: 20px;
+}
+
+.wraper-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+}
+
+.wraper-2 .left-div-2 {
+  max-width: 560px;
+  height: 200px;
 }
 /*# sourceMappingURL=global.css.map */
