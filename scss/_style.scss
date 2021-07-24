@@ -1,0 +1,34 @@
+.wraper{
+    // max-width: 1160px;
+    // height: 800px;
+    @include d-flex(flex,space-between);
+    margin-top: $size03;
+    .left-div{
+        max-width: 560px;
+        height: $size02;
+        background-color: seagreen;
+        margin-right: 240px;
+        margin-left:$size03;
+        margin-top: $size04;
+        border-radius: $size01;
+        .text{
+            font-size: 18px;
+            font-weight: inherit;
+            margin-top: 60px;
+            margin-left: $size01;
+            margin-right: $size01;
+            font-family: $font01;
+        }
+    }
+    .right-div{
+        max-width: 860px;
+        height: $size02;
+        margin-top: $size04;
+        margin-right: $size03;
+        .image{
+            max-width: 860px;
+            height: $size02;
+            border-radius: $size01;
+        }
+    }   
+}
