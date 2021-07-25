@@ -59,10 +59,27 @@ table {
   border-radius: 20px;
 }
 
+.wraper .left-div .title {
+  font-size: larger;
+  margin-top: 30px;
+  margin-left: 200px;
+  font-family: "Otomanopee One", sans-serif;
+  font-weight: lighter;
+}
+
+.wraper .left-div .title:after {
+  content: '';
+  width: 132px;
+  height: 2px;
+  margin-top: 5px;
+  background-color: indigo;
+  display: block;
+}
+
 .wraper .left-div .text {
   font-size: 18px;
   font-weight: inherit;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Indie Flower", cursive;
@@ -93,7 +110,13 @@ table {
   border-radius: 20px;
 }
 
-.wraper-2 {
+.container {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container .wraper-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,8 +126,50 @@ table {
   margin-top: 80px;
 }
 
-.wraper-2 .left-div-2 {
+.container .wraper-2 .left-div-2 {
+  max-width: 360px;
+  height: 80px;
+  margin-left: 50px;
+}
+
+.container .wraper-2 .left-div-2 .image-2 {
+  max-width: 860px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.container .wraper-2 .right-div-2 {
   max-width: 560px;
   height: 200px;
+  background-color: seagreen;
+  margin-left: 170px;
+  border-radius: 20px;
+}
+
+.container .wraper-2 .right-div-2 .title-2 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+}
+
+.container .wraper-2 .right-div-2 .title-2:after {
+  content: '';
+  width: 132px;
+  height: 2px;
+  margin-top: 5px;
+  background-color: indigo;
+  display: block;
+}
+
+.container .wraper-2 .right-div-2 .text-2 {
+  font-size: 14px;
+  font-weight: inherit;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Otomanopee One", sans-serif;
 }
 /*# sourceMappingURL=global.css.map */
