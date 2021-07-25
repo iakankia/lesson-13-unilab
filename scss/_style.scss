@@ -3,6 +3,9 @@
     // max-width: 1160px;
     // height: 800px;
     @include d-flex(flex,space-between);
+    @media(max-width:950px){
+        flex-direction: column;
+    }
     margin-top: $size03;
     .left-div{
         max-width: 560px;
@@ -12,6 +15,9 @@
         margin-left:$size03;
         margin-top: $size04;
         border-radius: $size01;
+        @media (max-width:1024px) {
+            background-color: midnightblue;
+        }
         .title{
             font-size: larger;
             margin-top: $size05;
@@ -71,9 +77,11 @@
         .right-div-2{
             max-width: 560px;
             height: $size02;
-            background-color: seagreen;
             margin-left:170px;
             border-radius: $size01;
+            &:nth-child(2){
+                background-color: seagreen;
+            }
             .title-2{
                 font-size: 25px;
                 margin-top: $size05;
