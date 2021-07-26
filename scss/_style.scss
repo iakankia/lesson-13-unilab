@@ -1,4 +1,19 @@
-                                // first section
+.header-container{
+	@include d-flex(flex,space-between);
+	align-items: center;
+	margin-top: 45px;
+	padding-top: 10px;
+    max-width: 1920px;
+    width: 100%;
+    li a{
+        margin-right: 140px;
+        color:darkslategrey;
+        font-size: $size01;
+        letter-spacing: 0,5px;
+        font-family: $font02;
+    }
+}
+                                             // first section
 .wraper{
     // max-width: 1160px;
     // height: 800px;
@@ -109,18 +124,3 @@
         }
     }
 } 
-                                             // footer
-.footer{
-    background-color: forestgreen;
-    max-width: 1160px;
-    width: 100%;
-    height: $size02;
-    .div-box{
-        display: flex;
-        margin-top: 120px;
-        .p1{
-            margin-top: $size01;
-            margin-left: $size01;
-        }
-    }
-}
